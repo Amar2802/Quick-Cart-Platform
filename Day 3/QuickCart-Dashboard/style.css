@@ -1,0 +1,63 @@
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #1e293b, #020617);
+}
+
+.card {
+  background: #1e293b;
+  color: #e2e8f0;
+  border: none;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.card img {
+  height: 200px;
+  object-fit: contain;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+}
+
+button {
+  border-radius: 8px !important;
+}
+
+.btn-primary {
+  background: #3b82f6;
+  border: none;
+}
+
+.btn-dark {
+  background: #6366f1;
+  border: none;
+}
+
+input, select {
+  background: #1e293b !important;
+  color: #e2e8f0 !important;
+  border: 1px solid #334155 !important;
+}
+
+input::placeholder {
+  color: #94a3b8;
+}
+
+.modal-content {
+  background: #1e293b;
+  color: #e2e8f0;
+}
+
+#loadingSignal {
+  color: #38bdf8;
+  font-weight: bold;
+}
